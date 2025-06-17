@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Sameeksha Sharma" />
+  <meta name="description" content="Sameeksha Sharma - HTML Resume Project" />
+  <title>Sameeksha Sharma - Resume</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Sameeksha Sharma</h1>
+    <h2>Aspiring Web Developer | Java DSA Learner</h2>
+    <nav>
+      <a href="#education">Education</a> |
+      <a href="#skills">Skills</a> |
+      <a href="#contact">Contact</a><!--Yaha hmne id selectors ko use krke navigation bar bnai hai !!!!!-->
+    </nav>
+    <hr>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <p>
+      Hi! I’m <strong>Sameeksha</strong>, currently learning Web Development and mastering <em>Java DSA</em>. 
+      I love building structured projects and solving real-world coding challenges with a goal-oriented mindset.
+    </p>
+  </section>
+  <img src="./profile.jpg" height="200" width="200">
+
+  <!-- Education -->
+  <section id="education">
+    <h3>📚 Education</h3>
+    <ul>
+      <li>B.Tech in Electrical Engineering – XYZ University (2022–2026)</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h3>🛠️ Technical Skills</h3>
+    <table border="1">
+      <tr>
+        <th>Frontend</th>
+        <th>Backend</th>
+        <th>Tools</th><!--ye hmne table headings ke liye use kiya hai !!!!!-->
+      </tr>
+      <tr>
+        <td>HTML, CSS (Learning JS)</td>
+        <td>Will learn Node.js</td>
+        <td>Git, GitHub, VS Code</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h3>📞 Contact</h3>
+    <address>
+      📧 Email: <a href="mailto:sameeksha@email.com">sameeksha@email.com</a><br>
+      📱 Phone: +91-9876543210<br>
+      🔗 LinkedIn: <a href="https://linkedin.com/in/your-profile">linkedin.com/in/your-profile</a>
+    </address>
+  </section>
+
+  <!-- Music Embed -->
+  <section id="music">
+    <h3>🎵 Favorite Track Right Now</h3>
+    <p>Here's what I'm listening to while coding:</p>
+    <iframe
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/5pP1Xh4YftY" 
+      title="Ed Sheeran - Sapphire (Official Video)" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen> <!--ye hmne youtube video ko embed kiya hai !!!!!-->
+    </iframe>
+  </section>
+
+  <!-- Feedback Form -->
+  <section id="feedback"> <!--ye feedback form ke liye hai !!!!!-->
+    <h3>🗳️ Feedback</h3>
+    <form action="#" method="post">
+      <label for="like">Do you like this webpage?</label><br><br>
+      
+      <input type="radio" id="yes" name="like" value="yes">
+      <label for="yes">Yes, it's awesome! 🎉</label><br>
+
+      <input type="radio" id="no" name="like" value="no">
+      <label for="no">Needs improvement 💡</label><br><br>
+
+      <label for="message">Any comments?</label><br>
+      <textarea id="message" name="message" rows="3" cols="40" placeholder="Write your thoughts..."></textarea><br><br>
+
+      <input type="submit" value="Submit Feedback">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Sameeksha Sharma. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
