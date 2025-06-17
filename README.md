@@ -1,4 +1,4 @@
-# 🌸 Web Development Journey – 30 Days of HTML, CSS & JS 🧠💻
+# Web Development Journey – 30 Days of HTML, CSS & JS
 
 Welcome to my personal **Frontend Web Development Journey**!  
 This repository documents my daily hands-on practice, covering the core building blocks of modern websites — from basic HTML to advanced JavaScript interactions.
@@ -27,7 +27,7 @@ This repository documents my daily hands-on practice, covering the core building
 
 > 🔄 Each day is a folder (`Day 1`, `Day 2`, etc.) with its own `README.md`, HTML/CSS/JS files, and screenshots.
 
----
+
 ## 🧱 Tech Stack
 
 - ✅ **HTML5** – structure & semantics
@@ -35,7 +35,4 @@ This repository documents my daily hands-on practice, covering the core building
 - ✅ **JavaScript** – interactivity, DOM, logic
 - ✅ **Git & GitHub** – version control & hosting
 
----
-
-## 📂 Folder Structure
 
